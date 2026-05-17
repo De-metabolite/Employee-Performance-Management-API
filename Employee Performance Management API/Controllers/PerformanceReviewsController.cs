@@ -1,6 +1,11 @@
-﻿namespace Employee_Performance_Management_API.Controllers
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Employee_Performance_Management_API.Controllers
 {
-    public class PerformanceReviewsController
+    [Route("api/[controller]")]
+    [ApiController]
+    public class PerformanceReviewsController : ControllerBase
     {
     }
 }

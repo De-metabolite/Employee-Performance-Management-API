@@ -9,6 +9,7 @@ C:\Users\hp\source\repos\Employee Management API\Employee Performance Management
 C:\Users\hp\source\repos\Employee Management API\Employee Performance Management API\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\hp\source\repos\Employee Management API\Employee Performance Management API\bin\Debug\net10.0\Azure.Identity.dll
 C:\Users\hp\source\repos\Employee Management API\Employee Performance Management API\bin\Debug\net10.0\Humanizer.dll
+C:\Users\hp\source\repos\Employee Management API\Employee Performance Management API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\hp\source\repos\Employee Management API\Employee Performance Management API\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\hp\source\repos\Employee Management API\Employee Performance Management API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\hp\source\repos\Employee Management API\Employee Performance Management API\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll

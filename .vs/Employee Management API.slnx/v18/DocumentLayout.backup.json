@@ -1,12 +1,343 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\Employee Management API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\middleware\\globalexceptionmiddlewarecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\middleware\\globalexceptionmiddlewarecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\models\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\models\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\controllers\\performancereviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\controllers\\performancereviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\models\\performancereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\models\\performancereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|c:\\users\\hp\\source\\repos\\employee management api\\employee performance management api\\migrations\\20260514220223_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12904C6-A3E4-D529-4C26-9F86D96E7849}|Employee Performance Management API\\Employee Performance Management API.csproj|solutionrelative:employee performance management api\\migrations\\20260514220223_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Services\\AuthService.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Services\\AuthService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAASwEQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T10:41:48.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T10:36:29.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "Employee Performance Management API\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T10:01:26.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Program.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Program.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T21:04:19.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T10:24:46.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GlobalExceptionMiddlewarecs.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Middleware\\GlobalExceptionMiddlewarecs.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Middleware\\GlobalExceptionMiddlewarecs.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Middleware\\GlobalExceptionMiddlewarecs.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Middleware\\GlobalExceptionMiddlewarecs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T10:50:45.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\appsettings.json",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\appsettings.json",
+              "RelativeToolTip": "Employee Performance Management API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-14T20:47:48.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\AppUser.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T20:47:03.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "Employee Performance Management API\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T09:57:56.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtSetting.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\JwtSetting.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Models\\JwtSetting.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\JwtSetting.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Models\\JwtSetting.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T12:05:18.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "Employee Performance Management API\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T10:06:51.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PerformanceReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Controllers\\PerformanceReviewsController.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Controllers\\PerformanceReviewsController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Controllers\\PerformanceReviewsController.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Controllers\\PerformanceReviewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T10:27:33.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T10:26:22.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T10:25:28.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\Employee.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T20:18:37.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260514220223_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Migrations\\20260514220223_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Migrations\\20260514220223_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Migrations\\20260514220223_InitialMigration.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Migrations\\20260514220223_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:02:23.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T21:11:15.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\Department.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T20:12:38.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PerformanceReview.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\PerformanceReview.cs",
+              "RelativeDocumentMoniker": "Employee Performance Management API\\Models\\PerformanceReview.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Employee Management API\\Employee Performance Management API\\Models\\PerformanceReview.cs",
+              "RelativeToolTip": "Employee Performance Management API\\Models\\PerformanceReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T20:26:09.982Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

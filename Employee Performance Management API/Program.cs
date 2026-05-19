@@ -28,23 +28,42 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(options => 
+builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v1", new OpenApiInfo
+options.SwaggerDoc("v1", new OpenApiInfo
+{
+    Version = "v1",
+    Title = "Employee Performance Management API",
+    Description = "An ASP.NET Core Web API for managing employee performances.",
+    Contact = new OpenApiContact
     {
-        Version = "v1",
-        Title = "Employee Performance Management API",
-        Description = "An ASP.NET Core Web API for managing employee performances.",
-        Contact = new OpenApiContact
-        {
-            Name = "Bello Qudus",
-            Email = "belloqudus3@gmail.com",
+        Name = "Bello Qudus",
+        Email = "belloqudus3@gmail.com",
 
-        }
-    });
+    }
+});
+options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+{
+    Name = "Authorization",
+    Type = SecuritySchemeType.Http,
+    Scheme = "bearer",
+    BearerFormat = "JWT",
+    Description = "Enter JWT Token"
+});
+// options.AddSecurityRequirement(new OpenApiSecurityRequirement
+//{
+    //{
+        //new OpenApiSecurityScheme
+        //{
+            //Reference = new OpenApiReference
+        //};
+    //}
+//});
 
 });
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IDepartmentService, DepartmentServices>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(ConnectionString));
 builder.Services.AddIdentity<AppUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
@@ -104,6 +123,7 @@ if (app.Environment.IsDevelopment())
     //app.MapOpenApi();
 }
 app.UseMiddleware<GlobalExceptionMiddleware>();
+app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -113,6 +133,6 @@ app.UseAuthorization();
 // Configure the HTTP request pipeline.
 
 
-app.UseHttpsRedirection();
+
 app.MapControllers();
 app.Run();

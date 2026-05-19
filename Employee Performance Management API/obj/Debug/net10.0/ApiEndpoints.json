@@ -37,6 +37,90 @@
         "Name": "dto",
         "Type": "Employee_Performance_Management_API.DTOs.RegisterDto",
         "IsRequired": true
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.DepartmentsController",
+    "Method": "CreateDepartment",
+    "RelativePath": "api/departments/CreateDepartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Employee_Performance_Management_API.DTOs.CreateDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.DepartmentsController",
+    "Method": "DeleteDepartmentByIdAsync",
+    "RelativePath": "api/departments/DeleteDepartment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.DepartmentsController",
+    "Method": "GetAllDepartments",
+    "RelativePath": "api/departments/GetAllDepartments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.DepartmentsController",
+    "Method": "GetEmployeesByDepartmentAsync",
+    "RelativePath": "api/departments/GetEmployeesbyDepartment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.DepartmentsController",
+    "Method": "UpdateDepartmentByIdAsync",
+    "RelativePath": "api/departments/UpdateDepartment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "Employee_Performance_Management_API.DTOs.CreateDepartmentDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -1,4 +1,5 @@
-﻿using Employee_Performance_Management_API.DTOs;
+﻿using Employee_Performance_Management_API.Data;
+using Employee_Performance_Management_API.DTOs;
 using Employee_Performance_Management_API.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
@@ -15,18 +16,21 @@ namespace Employee_Performance_Management_API.Services
 
         private readonly UserManager<AppUser> _userManager;
         private readonly JwtSettings _jwtsettings;
-        public AuthService(UserManager<AppUser> userManager, IOptions<JwtSettings> jwtSettings)
+        private readonly ApplicationDbContext _context;
+        public AuthService(UserManager<AppUser> userManager, IOptions<JwtSettings> jwtSettings, ApplicationDbContext context)
         {
             _jwtsettings = jwtSettings.Value;
             _userManager = userManager;
+            _context = context;
         }
         public async Task RegisterAsync(RegisterDto dto)
         {
             var user = new AppUser
-            {
+            {   
+                FirstName= dto.FirstName,
+                LastName= dto.LastName,
                 Email = dto.Email,
                 UserName= dto.Email,
-                FullName = dto.FullName,
                 PhoneNumber = dto.PhoneNumber,
 
 
@@ -44,6 +48,22 @@ namespace Employee_Performance_Management_API.Services
                 var error = roleassigned.Errors.Select(e => e.Description).ToString();
                 throw new Exception(error);
             }
+
+            var employee = new Employee
+            {
+                FirstName = dto.FirstName,
+                LastName = dto.LastName,
+                IdentityUserId = user.Id,
+                DepartmentId = dto.DepartmentalId,
+                HiredDate = dto.HiredDate,
+                Salary= dto.Salary,
+
+
+            };
+
+            _context.Employees.Add(employee);
+            await _context.SaveChangesAsync();
+
            
         }
         public async Task<LoginResponseDto> LoginResponseDtoAsync(LoginDto dto)
@@ -72,7 +92,8 @@ namespace Employee_Performance_Management_API.Services
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.Name, user.FullName),
+                new Claim(ClaimTypes.Name, user.FirstName),
+                new Claim(ClaimTypes.Name, user.LastName),
                 new Claim(ClaimTypes.Role, roles.FirstOrDefault() ?? "Employee"),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };

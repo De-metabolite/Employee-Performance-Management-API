@@ -15,7 +15,7 @@ namespace Employee_Performance_Management_API.Controllers
             _authService = authService;
         }
         [HttpPost("register")]
-        public async Task<IActionResult> RegisterAsync(RegisterDto dto)
+        public async Task<IActionResult> RegisterAsync(RegisterDto dto, DateTime date)
         {
             await _authService.RegisterAsync(dto);
             return Ok("Account Created Successfully.");

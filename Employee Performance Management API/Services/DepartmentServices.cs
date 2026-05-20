@@ -3,6 +3,7 @@ using Employee_Performance_Management_API.Models;
 using Employee_Performance_Management_API.DTOs;
 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Employee_Performance_Management_API.Services
 {
@@ -17,6 +18,7 @@ namespace Employee_Performance_Management_API.Services
         {
             return await _context.Departments.ToListAsync();
         }
+        
         public async Task<IEnumerable<Employee>> GetEmployeesByDepartmentAsync(string departmentId)
         {
             var department = await _context.Employees.Where(u=>u.DepartmentId == departmentId).ToListAsync();

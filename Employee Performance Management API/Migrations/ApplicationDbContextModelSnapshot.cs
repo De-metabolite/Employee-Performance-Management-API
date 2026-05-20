@@ -202,6 +202,9 @@ namespace Employee_Performance_Management_API.Migrations
                     b.Property<string>("EmployeeId")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("Goals")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
@@ -215,6 +218,9 @@ namespace Employee_Performance_Management_API.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int>("Score")
+                        .HasColumnType("int");
+
+                    b.Property<int>("status")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -375,7 +381,7 @@ namespace Employee_Performance_Management_API.Migrations
             modelBuilder.Entity("Employee_Performance_Management_API.Models.PerformanceReview", b =>
                 {
                     b.HasOne("Employee_Performance_Management_API.Models.Employee", "Employee")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("EmployeeId");
 
                     b.Navigation("Employee");
@@ -440,6 +446,11 @@ namespace Employee_Performance_Management_API.Migrations
             modelBuilder.Entity("Employee_Performance_Management_API.Models.Department", b =>
                 {
                     b.Navigation("Employees");
+                });
+
+            modelBuilder.Entity("Employee_Performance_Management_API.Models.Employee", b =>
+                {
+                    b.Navigation("Reviews");
                 });
 #pragma warning restore 612, 618
         }

@@ -126,6 +126,179 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.EmployeesController",
+    "Method": "GetMyProfile",
+    "RelativePath": "api/employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.EmployeesController",
+    "Method": "DeleteEmployeeById",
+    "RelativePath": "api/employees/DeleteEmployeeById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.EmployeesController",
+    "Method": "GetAllEmployees",
+    "RelativePath": "api/employees/GetAllEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.EmployeesController",
+    "Method": "GetEmployeeById",
+    "RelativePath": "api/employees/GetEmployeeById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.EmployeesController",
+    "Method": "UpdateEmployeeById",
+    "RelativePath": "api/employees/UpdateEmployeeById",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "Employee_Performance_Management_API.DTOs.EmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.PerformanceReviewsController",
+    "Method": "CreateReviewAsync",
+    "RelativePath": "api/performancereviews/CreateReview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Employee_Performance_Management_API.DTOs.CreateReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.PerformanceReviewsController",
+    "Method": "DeleteReviewAsync",
+    "RelativePath": "api/performancereviews/DeleteReviewById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RevieweeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.PerformanceReviewsController",
+    "Method": "GetAllReviews",
+    "RelativePath": "api/performancereviews/GetAllReviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.PerformanceReviewsController",
+    "Method": "GetEmployeeReviewsByIdAsync",
+    "RelativePath": "api/performancereviews/GetEmployeeReviewsById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.PerformanceReviewsController",
+    "Method": "GetMyReviewsAsync",
+    "RelativePath": "api/performancereviews/GetMyReviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.PerformanceReviewsController",
+    "Method": "SelfAssessmentAsync",
+    "RelativePath": "api/performancereviews/SelfAssessment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Employee_Performance_Management_API.DTOs.CreateReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Performance_Management_API.Controllers.PerformanceReviewsController",
+    "Method": "UpdateRewiewAsync",
+    "RelativePath": "api/performancereviews/UpdateRewiew",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Employee_Performance_Management_API.DTOs.UpdateRewiewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Employee_Performance_Management_API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

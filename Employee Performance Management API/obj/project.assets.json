@@ -884,6 +884,18 @@
           }
         }
       },
+      "SwaggerUI.OpenApi/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "10.0.0"
+        },
+        "compile": {
+          "lib/net10.0/SwaggerUI.OpenApi.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/SwaggerUI.OpenApi.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/10.1.7": {
         "type": "package",
         "dependencies": {
@@ -3201,6 +3213,20 @@
         "packageIcon.png"
       ]
     },
+    "SwaggerUI.OpenApi/2.5.0": {
+      "sha512": "MzP9LF7RAKpn3ZzJHPGIH2b7ekwzmoujSAX7uLA2QtSQohT7EvbtLZMz5wqNYXPhiCZTbGfrark4a3wjrRcr7Q==",
+      "type": "package",
+      "path": "swaggerui.openapi/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/SwaggerUI.OpenApi.dll",
+        "lib/net9.0/SwaggerUI.OpenApi.dll",
+        "swaggerui.openapi.2.5.0.nupkg.sha512",
+        "swaggerui.openapi.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/10.1.7": {
       "sha512": "vgef8DPT411JU5JjHiDbr0WOxsIVuAvegPGtqmm4Na4JRl/264dfBJcGkiPHsAr5P+Vda+qN1rZKRtBl1rF9aA==",
       "type": "package",
@@ -3641,6 +3667,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 10.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.8",
+      "SwaggerUI.OpenApi >= 2.5.0",
       "Swashbuckle.AspNetCore >= 10.1.7"
     ]
   },
@@ -3726,6 +3753,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[10.0.8, )"
+          },
+          "SwaggerUI.OpenApi": {
+            "target": "Package",
+            "version": "[2.5.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

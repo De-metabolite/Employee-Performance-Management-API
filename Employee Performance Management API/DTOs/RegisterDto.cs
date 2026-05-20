@@ -25,12 +25,9 @@ namespace Employee_Performance_Management_API.DTOs
        [Required]
        [Phone]
        string PhoneNumber
-       
 
 
-        )
-    {
 
-    };
+   );
     
 }

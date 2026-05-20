@@ -14,6 +14,8 @@ namespace Employee_Performance_Management_API.Models
         public  Department? Department { get; set; } 
         public string?IdentityUserId {  get; set; }
         [ForeignKey(nameof(IdentityUserId))]
-        public AppUser? User { get; set; }   
+        public AppUser? User { get; set; }
+  
+        public ICollection<PerformanceReview>? Reviews { get; set; }
     }
 }

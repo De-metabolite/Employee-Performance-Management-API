@@ -26,21 +26,21 @@ namespace Employee_Performance_Management_API.Controllers
           return Ok(result);
         }
         [HttpPost("CreateDepartment")]
-        //[Authorize(Roles = "HR")]
+        [Authorize(Roles = "HR")]
         public async Task<IActionResult> CreateDepartment(CreateDepartmentDto dto)
         {
             await _departmentservice.CreateDepartmentAsync(dto);
             return Ok("The department has been created successfully");
         }
         [HttpGet("GetEmployeesbyDepartment")]
-        //[Authorize(Roles ="HR,Manager")]
+         [Authorize(Roles ="HR,Manager")]
         public async Task<IActionResult> GetEmployeesByDepartmentAsync(string departmentId)
         {
             var result = await _departmentservice.GetEmployeesByDepartmentAsync(departmentId);
             return Ok(result);
         }
         [HttpPut("UpdateDepartment")]
-        //[Authorize(Roles = "HR")]
+        [Authorize(Roles = "HR")]
         public async Task<IActionResult> UpdateDepartmentByIdAsync(string departmentId, CreateDepartmentDto dto)
         {
             await _departmentservice.UpdateDepartmentByIdAsync(departmentId, dto);
@@ -48,7 +48,7 @@ namespace Employee_Performance_Management_API.Controllers
         }
 
         [HttpDelete("DeleteDepartment")]
-        //[Authorize(Roles ="HR")]
+        [Authorize(Roles ="HR")]
         public async Task<IActionResult> DeleteDepartmentByIdAsync(string departmentId)
         {
             await _departmentservice.DeleteDepartmentByIdAsync(departmentId);

@@ -45,25 +45,21 @@ options.SwaggerDoc("v1", new OpenApiInfo
 options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
 {
     Name = "Authorization",
-    Type = SecuritySchemeType.Http,
+    Type = SecuritySchemeType.ApiKey,
     Scheme = "bearer",
     BearerFormat = "JWT",
     Description = "Enter JWT Token"
 });
-// options.AddSecurityRequirement(new OpenApiSecurityRequirement
-//{
-    //{
-        //new OpenApiSecurityScheme
-        //{
-            //Reference = new OpenApiReference
-        //};
-    //}
-//});
+    options.AddSecurityRequirement(x => new OpenApiSecurityRequirement
+    {
+        [new OpenApiSecuritySchemeReference("Bearer", x)] = []
+    });
 
 });
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IDepartmentService, DepartmentServices>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IPerformanceReviewService, PerformanceReviewService>();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(ConnectionString));
 builder.Services.AddIdentity<AppUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
@@ -119,7 +115,14 @@ app.UseCors("AllowAll");
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger(c=>c.OpenApiVersion= Microsoft.OpenApi.OpenApiSpecVersion.OpenApi2_0);
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json","Employee Performance Management API V1");
+        c.RoutePrefix = "swagger";
+        c.DisplayRequestDuration();
+        c.EnableDeepLinking();
+        c.ShowExtensions();
+    });
     //app.MapOpenApi();
 }
 app.UseMiddleware<GlobalExceptionMiddleware>();

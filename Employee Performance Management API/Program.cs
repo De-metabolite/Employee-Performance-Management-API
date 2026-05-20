@@ -48,7 +48,7 @@ options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     Type = SecuritySchemeType.ApiKey,
     Scheme = "bearer",
     BearerFormat = "JWT",
-    Description = "Enter JWT Token"
+    Description = " JWT Token"
 });
     options.AddSecurityRequirement(x => new OpenApiSecurityRequirement
     {

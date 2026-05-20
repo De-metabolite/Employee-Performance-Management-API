@@ -85,7 +85,8 @@ namespace Employee_Performance_Management_API.Services
             var employee = _context.Employees.FirstOrDefault(u => u.IdentityUserId == userid);
 
             var newreview = new PerformanceReview
-            {
+            { 
+                Score=dto.Score,
                 EmployeeId = employee.Id,
                 status = dto.status,
                 Comments = dto.Comments,

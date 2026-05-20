@@ -81,7 +81,7 @@ namespace Employee_Performance_Management_API.Services
             var roles = await _userManager.GetRolesAsync(user);
             var Token = GenerateToken(user, roles);
             var Roles = roles.FirstOrDefault() ?? "Employee";
-            var ExpiresAt = DateTime.UtcNow.AddHours(_jwtsettings.ExpiresInHour);
+            var ExpiresAt = DateTime.UtcNow.AddHours(_jwtsettings.ExpiresInHours);
             
             return new LoginResponseDto(Token, Roles, ExpiresAt);
 
@@ -104,7 +104,7 @@ namespace Employee_Performance_Management_API.Services
                 issuer: _jwtsettings.Issuer,
                 audience: _jwtsettings.Audience,
                 claims: claims,
-                expires: DateTime.UtcNow.AddHours(_jwtsettings.ExpiresInHour),
+                expires: DateTime.UtcNow.AddHours(_jwtsettings.ExpiresInHours),
                 signingCredentials: credentials
                 );
 
